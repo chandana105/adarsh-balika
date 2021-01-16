@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 
 /* css variables */
 :root{
   --primary-color : #2563EB;
-  --off-white: #E5E7EB;
+  --off-white: #F3F4F6;
   --dark-gray: #6B7280
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
   /* to go till end to end */
   margin: 0px
 }
@@ -20,8 +20,6 @@ hr{
 
 /* container */
 .container {
-  /* padding-left: 1rem;
-  padding-right: 1rem; */
   padding: 0rem 1rem;
 }
 /* contaienr fluid same as container rt now */
@@ -34,6 +32,7 @@ hr{
 
 /* links */
 .link{
+  box-sizing: border-box;
   text-decoration: none;
   padding: 0.5rem 1rem;
   /* padding: top(bootm) right(left) */
@@ -63,6 +62,7 @@ hr{
 
 .list-non-bullet{
   list-style: none;
+  padding-inline-start: 0px;
 }
 
 .list-item-inline{
@@ -137,7 +137,7 @@ hr{
 /* footer */
 .footer {
   background-color: var(--primary-color);
-  padding : 2rem 1rem;
+  padding : 4rem 1rem;
   text-align: center;
   color : #fff;
   border-top-right-radius: 1rem;
