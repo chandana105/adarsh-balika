@@ -2,7 +2,7 @@
 
 /* css variables */
 :root{
-  --primary-color : #7C3AED;
+  --primary-color : #2563EB;
   --off-white: #E5E7EB;
   --dark-gray: #6B7280
 }
@@ -103,7 +103,8 @@ hr{
 }
 
 .hero .hero-img{
-  max-width: 350px;
+  max-width: 80%;
+  width: 350px;
   display: block;
   margin: auto;
 }
@@ -163,4 +164,34 @@ hr{
 /** blogs **/
 .showcase-blog {
   padding-bottom: 6rem;
+}
+
+/* blog-individual */
+
+.blog-img{
+  padding: 2rem 0rem;
+  max-width: 90%;
+  display: block;
+  margin: auto;
+}
+
+.padding-p{
+  padding: 1rem 0rem;
+}
+
+.blog-one{
+  padding: 1rem;
+  margin-left: 0px;
+  /* padding-top: 5rem; */
+}
+
+.blog-one .blog-heading{
+  text-align: center;
+  padding-top: 1rem;
+  color : var(--dark-gray)
+}
+
+
+.blog-one .blog-heading .heading-inverted{
+  color : var(--primary-color)
 }
